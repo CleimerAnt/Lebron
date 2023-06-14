@@ -1,0 +1,158 @@
+
+body{
+    background-color: #35363A;
+}
+/*body{
+    font-family: 'Inconsolata', monospace;
+font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    font-size: 20px;
+    background-color: #AB8F55;
+    
+}*/
+.cuerpo{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Josefin Sans', sans-serif;
+        color: black;
+        font-size: 20px;
+        background-color: #AB8F55;
+}
+
+h1{
+    
+    color: #99002A;
+    font-family: 'Inconsolata', monospace;
+font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    
+}
+.cabeza img{
+    width: 30px;
+    margin-left: 15px;
+}
+
+h1:hover{
+    color: #FDBA22;
+    
+    
+}
+
+.inicio img{
+    width: 400px;
+    border-radius: 100%;
+}
+
+.principal{
+    background-color: #AB8F55;
+    border-radius: thin 30px;
+    box-shadow: 0px 0px 50px #FDBA22;
+    width: 800px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.principal h2:hover{
+    color: #FDBA22;
+}
+
+
+.pie h2
+{
+    display: inline-block;
+    color: #99002A;
+    margin-left: 10px;
+}
+
+.pie h2:hover{
+    color: #FDBA22;
+}
+
+
+.pie a{
+    margin-left: 400px;
+    color: #99002A;
+    text-decoration: none;
+    
+}
+
+.pie img{
+    width: 30px;
+}
+
+.p-cleveland{
+    
+    background-image: url(img/Primera\ etapa\ de\ Lebron.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    height: 500px;
+    
+
+}
+
+.primero-cleveland{
+    background-color:#931A10;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Josefin Sans', sans-serif;
+        color: black;
+        font-size: 20px;
+}
+
+.primero-cleveland h2{
+    color:#AB8F55;
+    font-weight: bold;
+    font-size:xx-large;
+    font-size: 40px;
+
+    
+}
+
+.primero-cleveland h2:hover{
+    color: #35363A;
+}
+
+.menu {
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+}
+
+.logo  img :hover
+{
+    transform: scale(1.5);
+}
+
+.logo{
+    cursor: pointer;
+}
+
+
+
+
+.lista
+{
+    list-style: none;
+}
+
+
+.lista li{
+    display: inline-block;
+    padding: 0 20px;
+   
+}
+
+.lista a{
+    text-decoration: none;
+    color: #99002A;
+}
+
+.lista a:hover
+{
+    text-decoration:underline #FDBA22;
+}

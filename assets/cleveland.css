@@ -1,0 +1,99 @@
+body *{
+    font-family: 'Inconsolata', monospace;
+font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    font-size: 20px;
+    background-color:#270B13;
+    
+}
+
+.menu {
+    display: flex;
+    background-color: #270B13;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+}
+nav{
+    background-color: #270B13;
+}
+.logo  img :hover
+{
+    transform: scale(1.5);
+}
+
+.logo{
+    cursor: pointer;
+}
+
+
+
+
+.lista
+{
+    list-style: none;
+}
+
+
+.lista li{
+    display: inline-block;
+    padding: 0 20px;
+
+}
+
+.lista a{
+    text-decoration: none;
+    color: #FDBA22;
+    
+}
+
+.lista a:hover
+{
+    text-decoration:underline #99002A ;
+    color: #FDBA22;
+}
+
+.logo img{
+    width: 30px;
+    margin-left: 15px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+h1{
+    
+    color: #FDBA22;
+    font-family: 'Inconsolata', monospace;
+font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    
+}
+
+h1:hover{
+    color: #99002A;
+}
+
+.p-cleveland{
+    
+    background-image: url(img/Primera\ etapa\ de\ Lebron.jpg);
+    background-position: top center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding: 60px;
+    height: 500px;
+    opacity: .80;
+
+}
+
+.p-cleveland:hover{
+
+    opacity: .96;
+    pointer-events: visible;
+}
+
+html{
+    background-color: #270B13;
+}
+
